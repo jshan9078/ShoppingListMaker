@@ -1,0 +1,203 @@
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-raleway: "Raleway";
+  --font-gochi: "Gochi Hand";
+  --font-oxygen: "Oxygen";
+}
+
+body {
+  font-family: var(--font-raleway);
+  background-color: #8fd3fd48;
+}
+
+
+#mainName {
+  margin: auto;
+  font-family: var(--font-gochi);
+  font-size: 10vw;
+  margin-top:7vw;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(235, 41, 27) 0%,
+    rgb(235, 41, 27) 0%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  filter: drop-shadow(offset-x offset-y blur-radius orange);
+}
+
+
+
+.search {
+  width: 30%;
+  margin: auto;
+  margin-top:7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.5rem 1.75rem;
+  border-radius: 1rem;
+  background: #e4e0e0;
+  -webkit-box-shadow: 5px 5px 7px #dfe5f1, -5px -5px 7px #6faed8;
+  box-shadow: 5px 5px 7px #dfe5f1, -5px -5px 7px #6faed8;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  font-size: 1.5rem;
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  padding-right: 1rem;
+
+  outline: none;
+  color: black;
+  background: #e4e0e0;
+}
+
+#searchButton {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  color:#fa320a;  
+}
+
+#searchButton:hover {
+  color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+  html{
+    align-items: center;
+    justify-content: center;
+  }
+  #mainName{
+    margin-top: 70vw;
+    font-size:14vw;
+    margin-left:19vw;
+    margin-bottom:10vw;
+  }
+  .search {
+    width: 70%;
+    margin: auto;
+    margin-top:7vw;
+    display: inline;
+    
+    margin-left:9vw;
+    
+    border-radius: 1rem;
+   
+  }
+  
+  .search input {
+    
+    font-size: 1.5rem;
+    
+    padding-right: 0;
+  
+    outline: none;
+    color: white;
+    background: #3C3A3A;
+  }
+  
+  #searchButton {
+    display:none;
+    
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchpage {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.FormWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.item-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.item-input::placeholder {
+  color: #ffffff4d;
+}
+
+.item-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.Form {
+  width: 100%;
+}
+
+.Item{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.fa-dollar-sign{
+  margin-left:0.75rem;
+}
